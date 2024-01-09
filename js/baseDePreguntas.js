@@ -1,7 +1,10 @@
-[
+let baseDePreguntas = [
     {
         "question": "What breed of dog was Marley in the film \"Marley & Me\" (2008)?",
-        "answers": [
+        "ayuda": "Labrador Retriever",
+        
+           
+            "answers": [
             "Labrador Retriever",
             "Dalmatian",
             "Golden Retriever",

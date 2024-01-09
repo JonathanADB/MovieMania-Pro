@@ -1,47 +1,46 @@
-* { margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    transition: all 0.25s;
-  }
+* {
+  transition: all 0.25s;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   
-  body {
-    
-    background-color: steelblue;
-    background-image: url(Galeria/movimania.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    font-size: 120%;
-  }
-  
-  #encabezado {
-    width: 40vw;
-    min-height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: white;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-  }
-  
-  .opcion {
-    text-align: center;
-    width: 20vw;
-    background: white;
-    
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-    cursor: pointer;
-  }
-  
-  .opcion:hover{
-       background: lightgray;
-  }
+  background-color: steelblue;
+  background-image: url(Galeria/movimania.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 120%;
+}
+
+#encabezado {
+  width: 80vw;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.opcion {
+  width: 70vw;
+  background: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.opcion:hover{
+     background: lightgray;
+}
